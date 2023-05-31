@@ -1,7 +1,7 @@
 
 
 //local api
- export const baseURL ='http://13.126.135.9:31502/'
+ export const baseURL ='http://13.233.37.15:31502/'
 // Server Api
 // export const baseURL ='https://ml-hospital-mngmt.azurewebsites.net/'
 //vm Api
