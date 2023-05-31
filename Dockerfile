@@ -4,7 +4,7 @@ RUN apt clean
 RUN apt autoremove
 #RUN apt install -y node-cacache node-gyp node-mkdirp node-nopt node-tar node-which
 RUN apt install aptitude -y
-RUN apt aptitude update
+RUN aptitude update
 RUN aptitude install -y nodejs npm 
 RUN apt install -y git
 RUN git clone https://github.com/wahtej/ml-hospital-react.git
